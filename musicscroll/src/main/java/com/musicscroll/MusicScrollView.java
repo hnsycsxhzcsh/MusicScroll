@@ -89,12 +89,16 @@ public class MusicScrollView extends RelativeLayout {
         //防止多次生成动画
         if (needInitAnim) {
             //开启动画
+            //获取第二个子控件
             final View child2 = getChildAt(1);
             int child2Wid = child2.getMeasuredWidth();
+            //第二个子控件动画开始的位置
             float start2 = (float) mWidth / (float) 2 + (float) child2Wid / (float) 2;
+            //第二个子控件结束的位置
             float end2 = -((float) mWidth / (float) 2 + (float) child2Wid / (float) 2);
             animator2 = ObjectAnimator.ofFloat(child2, "translationX", start2, end2);
             animator2.setDuration((long) (Math.abs(end2 - start2) * 10));
+            //设置匀速移动
             animator2.setInterpolator(new LinearInterpolator());
             animator2.addListener(new AnimatorListenerAdapter() {
                 @Override
@@ -112,6 +116,7 @@ public class MusicScrollView extends RelativeLayout {
             animator2.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
                 @Override
                 public void onAnimationUpdate(ValueAnimator animation) {
+                    //当控件左侧滑动到父控件左侧边缘时候，开启另一个动画
                     float x = child2.getX();
                     if (x < 0 && !animator.isStarted()) {
                         animator.start();
@@ -119,11 +124,13 @@ public class MusicScrollView extends RelativeLayout {
                 }
             });
 
+            //第一个子控件
             final View child1 = getChildAt(0);
             int child1Wid = child1.getMeasuredWidth();
+            //第一个子控件动画开始位置
             float start1 = (float) mWidth / (float) 2 + (float) child1Wid / (float) 2;
+            //第一个子控件动画结束位置
             float end1 = -((float) mWidth / (float) 2 + (float) child1Wid / (float) 2);
-
             animator = ObjectAnimator.ofFloat(child1, "translationX", start1, end1);
             animator.setDuration((long) (Math.abs(end1 - start1) * 10));
             animator.setInterpolator(new LinearInterpolator());
@@ -143,6 +150,7 @@ public class MusicScrollView extends RelativeLayout {
             animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
                 @Override
                 public void onAnimationUpdate(ValueAnimator animation) {
+                    //当控件左侧滑动到父控件左侧边缘时候，开启另一个动画
                     float x = child1.getX();
                     if (x < 0 && !animator2.isStarted()) {
                         animator2.start();
