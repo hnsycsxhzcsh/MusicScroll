@@ -11,6 +11,7 @@ import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
 import android.widget.RelativeLayout;
@@ -31,6 +32,7 @@ public class MusicScrollView extends RelativeLayout {
     private ObjectAnimator animator2;
     private ObjectAnimator animator;
     private boolean needInitAnim = true;
+    private float mPadding = 100;
 
     public MusicScrollView(Context context) {
         this(context, null);
@@ -69,11 +71,12 @@ public class MusicScrollView extends RelativeLayout {
         int heiMeasure = MeasureSpec.getSize(heightMeasureSpec);
         int heiMode = MeasureSpec.getMode(heightMeasureSpec);
         int widMode = MeasureSpec.getMode(widthMeasureSpec);
-        int widMeasure = MeasureSpec.getSize(heightMeasureSpec);
+        int widMeasure = MeasureSpec.getSize(widthMeasureSpec);
 
         View child1 = getChildAt(0);
         // 子View占据的宽度
         int childWidth = child1.getMeasuredWidth();
+        int width = child1.getWidth();
         // 子View占据的高度
         mHeight = child1.getMeasuredHeight();
         mItemWid = childWidth;
@@ -180,6 +183,7 @@ public class MusicScrollView extends RelativeLayout {
 
         addView(musicScrollItem1);
         addView(musicScrollItem2);
+
         setGravity(Gravity.CENTER);
     }
 }

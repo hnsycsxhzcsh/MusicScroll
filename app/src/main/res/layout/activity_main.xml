@@ -29,7 +29,7 @@
         android:layout_centerInParent="true"
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
-        app:text="两只老虎"
+        app:text="两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎"
         app:textSize="16sp"></com.musicscroll.MusicScrollView>
 
 </RelativeLayout>
