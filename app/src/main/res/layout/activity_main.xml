@@ -13,7 +13,7 @@
         android:textColor="@color/colorAccent"
         android:textSize="16sp" />
 
-    <!--<com.musicscroll.MusicScrollView-->
+    <!--<MusicScrollView-->
     <!--android:id="@+id/msv"-->
     <!--android:layout_width="300dp"-->
     <!--android:layout_height="50dp"-->
@@ -22,7 +22,7 @@
     <!--app:textColor="@color/colorAccent"-->
     <!--app:textSize="26sp" />-->
 
-    <com.musicscroll.MusicScrollView
+    <com.musicscrollview.MusicScrollView
         android:id="@+id/msg"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
@@ -30,6 +30,6 @@
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
         app:text="两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎"
-        app:textSize="16sp"></com.musicscroll.MusicScrollView>
+        app:textSize="16sp"></com.musicscrollview.MusicScrollView>
 
 </RelativeLayout>

@@ -1,4 +1,4 @@
-package com.musicscroll;
+package com.musicscrollview;
 
 import android.content.Context;
 import android.graphics.drawable.AnimationDrawable;
