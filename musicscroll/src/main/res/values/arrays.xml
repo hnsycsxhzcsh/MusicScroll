@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="flagmusic">
+        <item>@drawable/music_songnamedecoration031000</item>
+        <item>@drawable/music_songnamedecoration031001</item>
+        <item>@drawable/music_songnamedecoration031002</item>
+        <item>@drawable/music_songnamedecoration031003</item>
+        <item>@drawable/music_songnamedecoration031004</item>
+        <item>@drawable/music_songnamedecoration031005</item>
+        <item>@drawable/music_songnamedecoration031006</item>
+        <item>@drawable/music_songnamedecoration031007</item>
+        <item>@drawable/music_songnamedecoration031008</item>
+        <item>@drawable/music_songnamedecoration031009</item>
+        <item>@drawable/music_songnamedecoration031010</item>
+        <item>@drawable/music_songnamedecoration031011</item>
+        <item>@drawable/music_songnamedecoration031012</item>
+        <item>@drawable/music_songnamedecoration031013</item>
+        <item>@drawable/music_songnamedecoration031014</item>
+        <item>@drawable/music_songnamedecoration031015</item>
+        <item>@drawable/music_songnamedecoration031016</item>
+        <item>@drawable/music_songnamedecoration031017</item>
+        <item>@drawable/music_songnamedecoration031018</item>
+        <item>@drawable/music_songnamedecoration031019</item>
+        <item>@drawable/music_songnamedecoration031020</item>
+        <item>@drawable/music_songnamedecoration031021</item>
+        <item>@drawable/music_songnamedecoration031022</item>
+        <item>@drawable/music_songnamedecoration031023</item>
+        <item>@drawable/music_songnamedecoration031024</item>
+        <item>@drawable/music_songnamedecoration031025</item>
+        <item>@drawable/music_songnamedecoration031026</item>
+        <item>@drawable/music_songnamedecoration031027</item>
+        <item>@drawable/music_songnamedecoration031028</item>
+        <item>@drawable/music_songnamedecoration031029</item>
+        <item>@drawable/music_songnamedecoration031030</item>
+        <item>@drawable/music_songnamedecoration031031</item>
+        <item>@drawable/music_songnamedecoration031032</item>
+        <item>@drawable/music_songnamedecoration031033</item>
+        <item>@drawable/music_songnamedecoration031034</item>
+        <item>@drawable/music_songnamedecoration031035</item>
+        <item>@drawable/music_songnamedecoration031036</item>
+        <item>@drawable/music_songnamedecoration031037</item>
+        <item>@drawable/music_songnamedecoration031038</item>
+        <item>@drawable/music_songnamedecoration031039</item>
+        <item>@drawable/music_songnamedecoration031040</item>
+        <item>@drawable/music_songnamedecoration031041</item>
+        <item>@drawable/music_songnamedecoration031042</item>
+        <item>@drawable/music_songnamedecoration031043</item>
+        <item>@drawable/music_songnamedecoration031044</item>
+        <item>@drawable/music_songnamedecoration031045</item>
+        <item>@drawable/music_songnamedecoration031046</item>
+        <item>@drawable/music_songnamedecoration031047</item>
+        <item>@drawable/music_songnamedecoration031048</item>
+        <item>@drawable/music_songnamedecoration031049</item>
+        <item>@drawable/music_songnamedecoration031050</item>
+        <item>@drawable/music_songnamedecoration031051</item>
+        <item>@drawable/music_songnamedecoration031052</item>
+        <item>@drawable/music_songnamedecoration031053</item>
+        <item>@drawable/music_songnamedecoration031054</item>
+        <item>@drawable/music_songnamedecoration031055</item>
+        <item>@drawable/music_songnamedecoration031056</item>
+        <item>@drawable/music_songnamedecoration031057</item>
+        <item>@drawable/music_songnamedecoration031058</item>
+        <item>@drawable/music_songnamedecoration031059</item>
+        <item>@drawable/music_songnamedecoration031060</item>
+        <item>@drawable/music_songnamedecoration031061</item>
+        <item>@drawable/music_songnamedecoration031062</item>
+        <item>@drawable/music_songnamedecoration031063</item>
+        <item>@drawable/music_songnamedecoration031064</item>
+        <item>@drawable/music_songnamedecoration031065</item>
+        <item>@drawable/music_songnamedecoration031066</item>
+        <item>@drawable/music_songnamedecoration031067</item>
+        <item>@drawable/music_songnamedecoration031068</item>
+        <item>@drawable/music_songnamedecoration031069</item>
+    </integer-array>
+
+</resources>

@@ -7,14 +7,16 @@
 
     <declare-styleable name="MusicScrollView">
         <attr name="textColor" />
-        <attr name="text"/>
-        <attr name="textSize"/>
+        <attr name="text" />
+        <attr name="textSize" />
     </declare-styleable>
 
     <declare-styleable name="MusicScrollView2">
-        <attr name="textColor"/>
-        <attr name="text"/>
-        <attr name="textSize"/>
+        <attr name="textColor" />
+        <attr name="text" />
+        <attr name="textSize" />
+        <attr name="bigTwoOffset" format="reference|dimension" />
+        <attr name="textAndPicOffset" format="reference|dimension" />
     </declare-styleable>
 
 

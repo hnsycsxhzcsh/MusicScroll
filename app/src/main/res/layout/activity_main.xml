@@ -34,8 +34,10 @@
     <!--app:textSize="16sp"></com.musicscrollview.MusicScrollView>-->
 
     <com.musicscrollview.MusicScrollView2
+        android:id="@+id/msv2"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"
+        app:text="两只老虎" />
 
 </RelativeLayout>
