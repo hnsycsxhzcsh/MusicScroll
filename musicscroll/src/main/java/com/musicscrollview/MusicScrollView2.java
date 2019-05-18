@@ -31,20 +31,27 @@ public class MusicScrollView2 extends View {
     private int mHei;
     private Bitmap mBackBitmap;
     private ArrayList<Integer> mPicList = new ArrayList<>();
+    //当前要绘制的图片的位置
     private int mCurrentPicPosition = 0;
     private float mBaseLineY;
     private float mTextWid;
     private float mPicWid = 70;
     private float mPicHei = 50;
+    //当前第一个子控件的绘制的位置
     private float mCurrentFirstPos;
+    //当前第二个子控件绘制的位置
     private float mCurrentSecondPos;
     private MsgHandler mHandlerOffset = new MsgHandler(this);
     private MsgHandler mHandlerPic = new MsgHandler(this);
+    //子控件位置移动的时间刷新间距值
     private long mOffsetTimeX = 10;
+    //音符跳动图片的时间刷新间距值
     private long mOffsetTimePic = 50;
     private float mMaxLeft;
     private float mMaxRight;
+    //两个子控件的间距，只有在子控件大于父控件时候此值才会生效
     private float mBigTwoMarginOffset = 100;
+    //文字和音符图片的间距
     private float mTextAndPicOffset = 40;
     private boolean isStart = false;
     private boolean isInitStart = false;
@@ -66,6 +73,7 @@ public class MusicScrollView2 extends View {
         //抗锯齿
         mPaint.setAntiAlias(true);
         mPaint.setStyle(Paint.Style.FILL);
+        mPaint.setTextAlign(Paint.Align.CENTER);
 
         TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.MusicScrollView2);
         if (array != null) {
@@ -77,7 +85,6 @@ public class MusicScrollView2 extends View {
             mTextAndPicOffset = array.getDimension(R.styleable.MusicScrollView2_textAndPicOffset, DensityUtil.dip2px(context, 5));
             mPaint.setColor(mTextColor);
             mPaint.setTextSize(mTextSize);
-            mPaint.setTextAlign(Paint.Align.CENTER);
             array.recycle();
         }
         //背景图片

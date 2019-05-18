@@ -38,6 +38,6 @@
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_centerInParent="true"
-        app:text="两只老虎" />
+        app:text="两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎" />
 
 </RelativeLayout>
