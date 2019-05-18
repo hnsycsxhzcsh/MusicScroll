@@ -47,6 +47,7 @@ public class MusicScrollView extends RelativeLayout {
     }
 
     private void initView(Context context, AttributeSet attrs) {
+        setClipChildren(false);
         this.mInflater = LayoutInflater.from(context);
         //抗锯齿
         mPaint.setAntiAlias(true);
@@ -155,7 +156,7 @@ public class MusicScrollView extends RelativeLayout {
                     //当控件左侧滑动到父控件左侧边缘时候，开启另一个动画
                     float x = child1.getX();
                     if (x < 0 && !animator2.isStarted()) {
-                        animator2.start();
+//                        animator2.start();
                     }
                 }
             });

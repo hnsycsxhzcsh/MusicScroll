@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clipChildren="false"
     tools:context="com.musicscroll.MainActivity">
 
     <TextView
@@ -22,14 +23,19 @@
     <!--app:textColor="@color/colorAccent"-->
     <!--app:textSize="26sp" />-->
 
-    <com.musicscrollview.MusicScrollView
-        android:id="@+id/msg"
+    <!--<com.musicscrollview.MusicScrollView-->
+    <!--android:id="@+id/msg"-->
+    <!--android:layout_width="300dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:paddingBottom="10dp"-->
+    <!--android:paddingTop="10dp"-->
+    <!--app:text="两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎"-->
+    <!--app:textSize="16sp"></com.musicscrollview.MusicScrollView>-->
+
+    <com.musicscrollview.MusicScrollView2
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:paddingBottom="10dp"
-        android:paddingTop="10dp"
-        app:text="两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎两只老虎"
-        app:textSize="16sp"></com.musicscrollview.MusicScrollView>
+        android:layout_height="50dp"
+        android:layout_centerInParent="true" />
 
 </RelativeLayout>

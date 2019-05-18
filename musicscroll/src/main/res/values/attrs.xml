@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <attr name="textColor" format="reference|color" />
+    <attr name="text" format="reference|string" />
+    <attr name="textSize" format="reference|dimension" />
+
     <declare-styleable name="MusicScrollView">
-        <attr name="textColor" format="reference|color" />
-        <attr name="text" format="reference|string" />
-        <attr name="textSize" format="reference|dimension" />
+        <attr name="textColor" />
+        <attr name="text"/>
+        <attr name="textSize"/>
     </declare-styleable>
+
+    <declare-styleable name="MusicScrollView2">
+        <attr name="textColor"/>
+        <attr name="text"/>
+        <attr name="textSize"/>
+    </declare-styleable>
+
 
 </resources>
