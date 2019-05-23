@@ -113,8 +113,8 @@ public class MusicScrollView2 extends View {
         mWid = widMeasure;
         mHei = heiMeasure;
         mCurrentFirstPos = (float) mWid / (float) 2;
-        mMaxLeft = -(mTextWid / 2 + mPicWid);
-        mMaxRight = (float) mWid + mTextWid / 2 + mPicWid;
+        mMaxLeft = -(mTextWid / 2 + mPicWid) + mTextAndPicOffset;
+        mMaxRight = (float) mWid + mTextWid / 2 + mPicWid + mTextAndPicOffset;
     }
 
     @Override
